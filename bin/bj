@@ -518,7 +518,7 @@ Main {
   end
 
   def before_run 
-    self.logger = param["log"].value
+    self.logger = param["log"].value if param["log"].given?
     Bj.logger = logger
     set_rails_root(param["rails_root"].value) if param["rails_root"].given?
     set_rails_env(param["rails_env"].value) if param["rails_env"].given?
