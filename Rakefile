@@ -14,6 +14,7 @@ begin
     gem.add_dependency 'systemu', '>= 1.2.0'
     gem.add_dependency 'orderedhash', '>= 0.0.3'
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Bj (or a dependency) not available."
 end
