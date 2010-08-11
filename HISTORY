@@ -1,3 +1,6 @@
+  1.2.1 
+    - Vibes fix for Ruby 1.8.7 and new Rakefile to make building the gem easier
+
   1.2.0
     - fixes to docs
     - added license
